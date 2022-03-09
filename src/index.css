@@ -1,0 +1,117 @@
+body {
+  background-color: #ddeaf2;
+}
+
+.project-container {
+  max-width: 50%;
+  margin: 6rem auto;
+  background-color: #ffffff;
+  padding: 3rem;
+  box-shadow: 0px 0px 1.5rem 1rem rgba(0, 0, 0, 0.25);
+}
+
+.expense-totals {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 1.5rem 0;
+}
+
+.expense-totals .left,
+.expense-totals .right {
+  width: 47.5%;
+}
+
+.expense-totals .left {
+}
+
+.expense-totals .right {
+}
+
+.expense-totals .right div p {
+  margin: 0 0 1rem 0;
+}
+
+.expense-totals .right div p:last-child {
+  margin: 0;
+}
+
+.expense-grid {
+}
+
+.expense-grid .expense-card {
+  border-bottom: 1px solid #ddeaf2;
+  padding: 1.5rem 0;
+}
+
+.expense-grid .expense-card:last-child {
+  border-bottom: none;
+}
+
+.expense-grid .expense-card h2 {
+  margin: 0 0 1rem 0;
+}
+
+.expense-grid .expense-card p {
+  margin: 0;
+}
+
+.expense-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.expense-modal .inner {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 11;
+  width: 40%;
+  height: 42%;
+  box-shadow: 0px 0px 1.5rem 1rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  margin: 0 auto;
+  padding: 3rem;
+}
+
+.expense-modal .inner .expense-form .input-group {
+  margin: 0 0 1.5rem 0;
+}
+
+.expense-modal .inner .expense-form .input-group label {
+  margin: 0 0 0.5rem 0;
+  display: block;
+}
+
+.expense-modal .inner .expense-form .input-group input,
+.expense-modal .inner .expense-form .input-group textarea {
+  width: 100%;
+}
+
+.expense-modal .inner .expense-form .input-group:last-child {
+  margin: 0;
+}
+
+.expense-modal .inner .actions {
+  margin: 3rem 0 0 0;
+}
+
+.expense-modal .inner .btn--no {
+  background-color: red;
+  color: #ffffff;
+}
+
+.expense-modal .inner .btn--yes {
+  background-color: limegreen;
+  color: #ffffff;
+}
